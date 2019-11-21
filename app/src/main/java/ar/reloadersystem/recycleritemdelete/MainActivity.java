@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     mAdapter.notifyDataSetChanged();
                     chk_select_all.setChecked(false);
                 } else {
-                    Snackbar.make(v, "Please click on select all check box, to delete all items.", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(v, "Selecciona todos los  checkBox, para eliminar todos los items", Snackbar.LENGTH_LONG).show();
                 }
             }
         });

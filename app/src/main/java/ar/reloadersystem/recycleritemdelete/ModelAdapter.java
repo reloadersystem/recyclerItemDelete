@@ -78,9 +78,9 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.ViewHolder> 
         AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
 
         //builder.setTitle("Dlete ");
-        builder.setMessage("Delete Item ?")
+        builder.setMessage("Eliminar Item ?")
                 .setCancelable(false)
-                .setPositiveButton("CONFIRM",
+                .setPositiveButton("CONFIRMAR",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
 
@@ -89,7 +89,7 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.ViewHolder> 
 
                             }
                         })
-                .setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+                .setNegativeButton("CANCELAR", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
 
 

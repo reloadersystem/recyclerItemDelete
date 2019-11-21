@@ -16,8 +16,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Select All"
-            android:textSize="22dp" />
+            android:text="Seleccionar Todos"
+            android:textSize="16dp" />
 
 
         <Button
@@ -30,7 +30,7 @@
             android:background="@color/colorPrimary"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:text="Delete All"
+            android:text="Eliminar Todo"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="18dp" />
